@@ -28,9 +28,9 @@ Before you can start working on this workshop you need to have some prerequisite
 
 ## Intro to IBM Cloud - 10 minutes
 
-## Deploy the IBM Cloud Internet of Things Starter Kit - 10 minute
+## Deploy the IBM Cloud Internet of Things starter application - 10 minute
 
-- practical [**IoT Starter Kit deploy**](IOTCLOUD.md)
+- practical [**IoT Web App Starter Kit deploy**](IOTCLOUD.md)
 
 ***
 *Quick links :*

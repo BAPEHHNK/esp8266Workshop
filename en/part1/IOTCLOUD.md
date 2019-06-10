@@ -4,15 +4,14 @@
 **Part 1** - [Setup](PREREQ.md) - [First App](FIRSTAPP.md) - [WIFI](WIFI.md) - [LED](LED.md) - [DHT](DHT.md) - [**Cloud**](IOTCLOUD.md)
 ***
 
-# Deploying an application to the IBM Cloud
+# Deploying a Web App starter application to the IBM Cloud
 
 ## Lab Objectives
 
 In this lab you will learn how to deploy a starter application to the IBM Cloud.  You will learn:
 
 - How to access the cloud and set the desired location to work in
-- Access the catalog of services and select a Starter Kit to deploy
-- Deploy a Starter Kit to the IBM Cloud
+- Deploy a Web App Starter Kit to the IBM Cloud
 - Access the Starter Kit source code and update the starter application
 - Become familiar with the DevOps tooling available in the IBM Cloud
 
@@ -33,11 +32,11 @@ If you haven't previously used any of the locations you will need to create a **
 ### Step 2 - Deploy a Web App Starter Kit
 
 1. From the IBM Cloud console use the 3-bar menu (☰) and select **Web Apps** from the menu.
-2. Select **Starter Kits* from the subsequent menu and use the search field to look for Node-RED:
+2. Select **Starter Kits* from the subsequent menu and use the search field to look for Node-RED.  Select the Node-RED starter:
 
     ![Web App - Starter Kit](../images/WebAppStarterKit.png)
 
-3. Enter an application name then select the required resource groups and locations to deploy to (at time of creating these instructions the IoT platform was only available in Dallas, Frankfurt or London Regions, so you need to be working in one of these regions).
+3. Enter an application name (try to make it unique to you) then select the required resource groups and locations to deploy to (at time of creating these instructions the IoT platform was only available in Dallas, Frankfurt or London Regions, so you need to be working in one of these regions).
 4. Press the **Create** button to move to next step:
 
     ![Web App - Create App](../images/WebAppCreateApp.png)
