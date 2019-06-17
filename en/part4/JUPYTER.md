@@ -122,7 +122,7 @@ spark.sql('select class, count(class) from df group by class').show()
 
 If your training data had double the number of entries for class 0 as class 1 then you can create an adjusted data frame to use for training using the following code : ```df_skew_fixed = df_class_0.sample(False, 0.5).union(df_class_1)```, which selects 50% of the records for class 0 and joins them with the records for class 1, so now both classes will have a similar number of records.  However, this should not be necessary as we ensured we captured a similar number of records for each class when training.
 
-- The pixiedust package provides the ability to visualise data in a number of different ways.  Before using the package you need to import it:
+- The pixiedust package provides the ability to visualise data in a number of different ways.  Before using the package you need to import it.  You should restart and rerun all the previous cells if prompted to restart the kernel (do this from the Kernel menu):
 
 ```python
 # visualisation package for python
@@ -211,7 +211,7 @@ spark.sql("select humidity, temp, prediction from result").show(50)
 
 ## Sample solution
 
-There is a sample solution for this part provided in the [notebooks](notebooks) folder.  If you have an issue and want to see the solution then within the IoT Sensor Analytics project select to add a new notebook.  Select to create a notebook from file and give the notebook a name - here **IoT Sensor Analytics - solution** has been used.  This assumes you have the file locally on your machine.  Select choose file and locate the **IoT Sensor Analytics.ipynb** file.  Finally ensure you have the Default Spark Python 3.5 XS runtime selected then press **Create Notebook**
+There is a sample solution for this part provided in the [notebooks](notebooks) folder.  If you have an issue and want to see the solution then within the IoT Sensor Analytics project select to add a new notebook.  Select to create a notebook from file and give the notebook a name - here **IoT Sensor Analytics - solution** has been used.  This assumes you have the file locally on your machine.  Select choose file and locate the **IoT Sensor Analytics.ipynb** file.  Finally ensure you have the Default Spark Python 3.6 XS runtime selected then press **Create Notebook**
   ![Import solution](screenshots/WatsonStudio-import-solution.png)
 
 Alternatively, you can select to import from URL and set the URL to : [https://raw.githubusercontent.com/binnes/esp8266Workshop/master/en/part4/notebooks/IoT%20Sensor%20Analytics.ipynb](https://raw.githubusercontent.com/binnes/esp8266Workshop/master/en/part4/notebooks/IoT%20Sensor%20Analytics.ipynb)
